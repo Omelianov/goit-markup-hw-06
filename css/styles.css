@@ -38,7 +38,6 @@ ol {
 .body {
   color: var(--font-family);
   font-family: Roboto, sans-serif;
-  letter-spacing: 0.03em;
   background-color: var(--background-color-primary);
 }
 
@@ -346,6 +345,7 @@ ol {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 
@@ -376,6 +376,7 @@ ol {
   color: var(--font-family);
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 /* Section Чим ми займаємося и h2 наша команда */
@@ -397,6 +398,7 @@ ol {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   display: flex;
   justify-content: center;
   margin-left: auto;
@@ -424,6 +426,7 @@ ol {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-color);
   width: 100%;
@@ -445,6 +448,7 @@ ol {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
@@ -470,6 +474,7 @@ ol {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   text-align: center;
   margin: 30px auto 10px auto;
 }
@@ -478,6 +483,7 @@ ol {
   color: var(--font-family);
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   text-align: center;
   vertical-align: middle;
   margin-bottom: 16px;
@@ -533,7 +539,8 @@ ol {
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: calc(42 / 36);
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
   text-align: center;
   margin-bottom: 50px;
@@ -624,6 +631,7 @@ ol {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
   font-style: normal;
   text-decoration: none;
 }
@@ -661,6 +669,7 @@ ol {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-color);
   margin-bottom: 20px;
@@ -726,6 +735,7 @@ ol {
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
   color: var(--white-color);
 }
 .send-icon {
@@ -759,6 +769,7 @@ ol {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  letter-spacing: 0.03em;
   padding: 6px 22px;
   background-color: var(--background-color-secondary);
   transition-property: background-color, color, box-shadow;
@@ -830,6 +841,7 @@ ol {
   color: var(--font-family);
   font-size: 16px;
   line-height: 1.9;
+  letter-spacing: 0.03em;
   width: 322px;
   height: 30px;
   margin-left: 0;
@@ -862,6 +874,7 @@ ol {
   display: flex;
   font-size: 18px;
   line-height: 1.6;
+  letter-spacing: 0.03em;
   color: #ffffff;
   justify-content: center;
   align-items: center;
