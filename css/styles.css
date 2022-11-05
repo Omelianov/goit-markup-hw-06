@@ -394,7 +394,6 @@ ol {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-form-comments:hover,
 .contact-form-comments:focus {
   outline: none;
   border-color: var(--accent-color);
@@ -405,6 +404,13 @@ ol {
   line-height: calc(14 / 12);
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+  transition: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-form-comments:focus::placeholder {
+  color: var(--accent-color);
 }
 
 .contact-form-icon {
@@ -845,7 +851,9 @@ ol {
   margin-left: 92px;
   align-items: center;
 }
+
 .subscribe-title {
+  display: block;
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
