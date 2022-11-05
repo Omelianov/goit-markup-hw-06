@@ -377,10 +377,7 @@ ol {
 
 .contact-form-name:focus,
 .contact-form-phone:focus,
-.contact-form-email:focus,
-.contact-form-name:hover,
-.contact-form-phone:hover,
-.contact-form-email:hover {
+.contact-form-email:focus {
   outline: none;
   border-color: var(--accent-color);
 }
@@ -424,10 +421,7 @@ ol {
 
 .contact-form-name:focus + .contact-form-icon,
 .contact-form-phone:focus + .contact-form-icon,
-.contact-form-email:focus + .contact-form-icon,
-.contact-form-name:hover + .contact-form-icon,
-.contact-form-phone:hover + .contact-form-icon,
-.contact-form-email:hover + .contact-form-icon {
+.contact-form-email:focus + .contact-form-icon {
   fill: var(--accent-color);
 }
 
@@ -496,8 +490,7 @@ ol {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-form-button:focus,
-.contact-form-button:hover {
+.contact-form-button:focus {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
