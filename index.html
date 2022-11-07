@@ -453,17 +453,9 @@
         </div>
         <div class="subscribe-general-block">
           <strong class="subscribe-title">Підпишіться на розсилку</strong>
-          <div class="subscribe-footer-form">
-            <form class="subscribe-form-email" name="subscribe-form">
-              <label class="visually-hidden" for="email"><span>email</span></label>
-              <input
-                class="email-footer-form"
-                type="email"
-                id="email"
-                placeholder="E-mail"
-                autofocus
-              />
-            </form>
+          <form class="subscribe-form-email" name="subscribe-form">
+            <label class="visually-hidden" for="email"><span>email</span></label>
+            <input class="email-footer-form" type="email" id="email" placeholder="E-mail" />
             <button class="subscribe-footer-btn" type="submit">
               <div class="subscribe-btn-pos">
                 <p class="subscribe-btn-text">Підписатися</p>
@@ -472,7 +464,7 @@
                 </svg>
               </div>
             </button>
-          </div>
+          </form>
         </div>
       </div>
 
@@ -557,16 +549,14 @@
                   type="checkbox"
                   id="accept"
                   required
+                  checked="unchecked"
                 />
                 <svg class="contact-form-icon-checkbox" width="18" height="18">
                   <use
-                    class="contact-form-icon-accept"
+                    class="contact-form-icon-unaccept"
                     href="./images/icons.svg#square-vector"
                   ></use>
-                  <use
-                    class="contact-form-icon-unaccept"
-                    href="./images/icons.svg#icon-check"
-                  ></use>
+                  <use class="contact-form-icon-accept" href="./images/icons.svg#icon-check"></use>
                 </svg>
                 <span class="contact-form-accept-text">Погоджуюся з розсилкою та приймаю</span>
                 <a class="contact-form-link" href="#"> Умови договору</a>

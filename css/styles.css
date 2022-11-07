@@ -446,11 +446,11 @@ ol {
 }
 
 .contact-form-checkbox:checked + .contact-form-icon-checkbox .contact-form-icon-accept {
-  opacity: 1;
+  opacity: 0;
 }
 
 .contact-form-checkbox:checked + .contact-form-icon-checkbox .contact-form-icon-unaccept {
-  opacity: 0;
+  opacity: 1;
 }
 
 .contact-form-accept-text {
@@ -863,11 +863,11 @@ ol {
   margin-bottom: 20px;
 }
 
-.subscribe-footer-form {
+.subscribe-form-email {
   display: flex;
 }
 
-.subscribe-footer-form input::placeholder {
+.subscribe-form-email input::placeholder {
   color: var(--white-color-60);
 }
 
